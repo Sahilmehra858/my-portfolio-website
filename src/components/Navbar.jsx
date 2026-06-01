@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="fixed w-full z-50 backdrop-blur-sm bg-gray-900 text-white shadow-lg">
-      <div className="container max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="container max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
         {/* Logo */}
         <div className="text-3xl font-bold cursor-pointer">
           <a href="">
